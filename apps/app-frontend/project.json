@@ -22,7 +22,9 @@
             "input": "apps/app-frontend/public"
           }
         ],
-        "styles": ["apps/app-frontend/src/styles.scss"],
+        "styles": ["apps/app-frontend/src/styles.scss",
+        "node_modules/@po-ui/style/css/po-theme-default.min.css"
+      ],
         "scripts": [],
         "server": "apps/app-frontend/src/main.server.ts",
         "ssr": {
