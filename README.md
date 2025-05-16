@@ -11,19 +11,19 @@
 To run the dev server for your app, use:
 
 ```sh
-npx nx serve app-frontend
+npx nx serve monitor
 ```
 
 To create a production bundle:
 
 ```sh
-npx nx build app-frontend
+npx nx build monitor
 ```
 
 To see all available targets to run for a project, run:
 
 ```sh
-npx nx show project app-frontend
+npx nx show project monitor
 ```
 
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.

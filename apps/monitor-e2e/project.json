@@ -1,0 +1,10 @@
+{
+  "name": "monitor-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/monitor-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["monitor"],
+  "// targets": "to see all targets run: nx show project monitor-e2e --web",
+  "targets": {}
+}

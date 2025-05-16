@@ -5,11 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-nx-welcome',
   imports: [CommonModule],
   template: `
-   <po-page-default p-title="Página Inicial">
-    <po-widget p-title="Bem-vindo!">
-      Primeira tela com PO-UI funcionando!
-    </po-widget>
-  </po-page-default>
+   <div>eitaaa</div>
   `,
   styles: [],
   encapsulation: ViewEncapsulation.None,

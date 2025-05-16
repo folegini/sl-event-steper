@@ -1,8 +1,8 @@
 export default {
-  displayName: 'app-frontend',
+  displayName: 'monitor',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/app-frontend',
+  coverageDirectory: '../../coverage/apps/monitor',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
