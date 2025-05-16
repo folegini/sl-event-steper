@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+po-menu {
+  flex: 0 0 auto;
+}
+
+router-outlet {
+  flex: 1 1 auto;
+  padding: 16px;
+}
